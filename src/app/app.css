@@ -1,0 +1,53 @@
+/*.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+.modal-overlay.active { display: flex; }
+.modal-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 420px;
+  position: relative;
+}
+.modal-box h3 { margin: 0 0 1.5rem; font-size: 1.3rem; color: #1a1a2e; }
+.form-group { margin-bottom: 14px; }
+.form-group label { display: block; font-size: 13px; color: #666; margin-bottom: 4px; }
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: border 0.2s;
+}
+.form-group input:focus,
+.form-group textarea:focus { border-color: #2a2d7c; }
+.form-group textarea { height: 100px; resize: vertical; }
+.modal-close {
+  position: absolute;
+  top: 14px; right: 18px;
+  background: none; border: none;
+  font-size: 22px; cursor: pointer; color: #999;
+}
+.modal-submit {
+  width: 100%;
+  background: #2a2d7c;
+  color: white; border: none;
+  padding: 13px; font-size: 14px;
+  font-weight: 600; border-radius: 6px;
+  cursor: pointer; transition: opacity 0.2s;
+}
+.modal-submit:hover { opacity: 0.9; }
+.modal-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+.success-msg { text-align: center; padding: 2rem 0; color: #1d9e75; font-size: 15px; font-weight: 500; }*/
